@@ -129,6 +129,38 @@ p {
   color: white;
 }
 
+/* ------- History side -------- */
+
+.bestyrelse{
+  width: 100%;
+}
+
+.intro-historie{
+  background-color: var(--blue);
+}
+
+.intro-historie p{
+  color: var(--text-color-light);
+}
+
+.intro-text{
+  color: var(--text-color-light);
+  text-align: left;
+  padding: 20px;
+}
+.intro-historie button{
+  background-color: var(--green);
+  border: none;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  color: var(--text-color-light);
+}
+
+
 
 
 
