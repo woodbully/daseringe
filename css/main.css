@@ -22,9 +22,9 @@ body {
   margin: 0;
 }
 
-p {
-  color: #000000;
-}
+
+
+
 
 h1 {
   font-size: 2em;
@@ -38,7 +38,6 @@ h1 {
   background-color: var(--blue);
   color: var(--text-color-light);
   padding: 13.5px;
-  text-transform: uppercase;
   position: fixed;
   top: 0;
   left: 0;
@@ -54,6 +53,7 @@ h1 {
 .topbar img {
   max-height: 70px;
 }
+
 
 /* ---------- tabbar styling ---------- */
 .tabbar {
@@ -124,6 +124,55 @@ h1 {
     opacity: 1
   }
 }
+
+/* ---------- front page styling ---------- */
+
+.forsidebillede {
+  width: 100%;
+  margin-top: 30%;
+  
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+/* ------- History side -------- */
+
+.bestyrelse{
+  width: 100%;
+}
+
+.intro-historie{
+  background-color: var(--blue);
+}
+
+.intro-historie p{
+  color: var(--text-color-light);
+}
+
+.intro-text{
+  color: var(--text-color-light);
+  text-align: left;
+  padding: 20px;
+}
+.intro-historie button{
+  background-color: var(--green);
+  border: none;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  color: var(--text-color-light);
+}
+
+
 
 
 
