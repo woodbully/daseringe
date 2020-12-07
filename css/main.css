@@ -59,14 +59,20 @@ h1 {
   left: 0;
   right: 0;
   z-index: 9999;
+  
 }
 
 /* Style the links inside the navigation bar */
 .tabbar a {
-  display: inline-block;
+   display: inline-flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
   color: var(--text-color-dark);
-  text-align: center;
-  padding: 20px 16px;
+  width: 32.6%;
+   height: 14%;
+   padding-top: 2.5%;
+   padding-bottom: 5%;
   text-decoration: none;
   font-size: 0.8em;
   letter-spacing: 0.1em;
@@ -77,6 +83,12 @@ h1 {
 .tabbar a.active {
   background-color: var(--blue);
   color: var(--text-color-light);
+  text-decoration: underline;
+
+}
+
+.menu-icon {
+  max-height: 35px;
 }
 
 /* ---------- page styling ---------- */
