@@ -22,10 +22,6 @@ body {
   margin: 0;
 }
 
-
-
-
-
 h1 {
   font-size: 2em;
   font-weight: 300;
@@ -158,6 +154,10 @@ p {
   border-radius: 0.5em;
   font-size: 1.5em;
   color: var(--text-color-light);
+}
+
+.historie-text{
+  color: var(--text-color-dark);
 }
 
 
