@@ -149,12 +149,13 @@ h2 {
   text-align: center;
   color: white;
  margin-top: 5%;
-  padding: 5px
+  padding: 5px;
 }
 
 .intro-text {
   background-color: var(--blue);
   text-align: center;
+  padding: 15px;
 }
 
 .intro-text button {
@@ -193,6 +194,9 @@ h2 {
 
 .counter {
   font-size: 40px;
+}
+
+
 /* ---------- wordpress posts styling ---------- */
 .flex-box {
   display: grid;
