@@ -236,7 +236,7 @@ h4 {
   color: var(--text-color-dark);
   text-align: left;
   margin-bottom: 70px;
-  margin: 35px;
+  margin: 8%;
 }
 
 .historie-sektion {
@@ -265,15 +265,21 @@ h4 {
 
 footer {
   background-color: var(--light-blue);
-  margin-bottom: 25px;
   padding-bottom: 50px;
 }
 
-footer p {
+footer p{
   color: var(--text-color-dark);
   font-weight: bold;
 }
 
 .some {
   display: flex;
+}
+
+/*---- Støt siden -----*/
+
+.stepsene{
+  display: flex;
+  margin: 4%;
 }
