@@ -132,17 +132,19 @@ h2 {
   color: white;
 }
 
-p {
+
+.forsidep {
   color: white;
   line-height: 25px;
+  padding-top: 45px;
 }
 
 .intro-text {
   background-color: var(--blue);
-
+  
 }
 
-button {
+.intro-text button {
   background-color: var(--green);
   border: none;
   padding-right: 35px;
@@ -152,8 +154,16 @@ button {
   border-radius: 0.5em;
   font-size: 1.5em;
   color: var(--text-color-light);
+  position: absolute;
+  left: 30%;
+}
+
+
+.dåseringsbaggrund {
   
 }
+
+
 
 
 
@@ -169,6 +179,7 @@ button {
 
 .intro-historie p{
   color: var(--text-color-light);
+  line-height: 25px;
 }
 
 .intro-text{
