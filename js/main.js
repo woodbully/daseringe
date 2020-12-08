@@ -21,10 +21,14 @@ function appendPosts(posts) {
     htmlTemplate += `
       <article class="wp-posts">
         <h3>${post.title.rendered}</h3>
+        <div class="flex-box">
         <img src="${post.acf.image.url}">
-        <p>${post.acf.age}</p>
-        <p>${post.acf.distance}</p>
-        <p>${post.acf.amputation}</p>
+        <div>
+        <p>Alder: ${post.acf.age} år</p>
+        <p>Afstand til nærmeste hospital: ${post.acf.distance} km</p>
+        <p>Type af amputaion: ${post.acf.amputation}</p>
+        </div>
+        </div>
 
       </article>
     `;
