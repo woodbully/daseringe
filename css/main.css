@@ -125,7 +125,6 @@ h1 {
 
 .forsidebillede {
   width: 100%;
-  margin-top: 30%;
 }
 
 h2 {
@@ -139,9 +138,17 @@ h2 {
   padding-top: 45px;
 }
 
+.intro-text1 {
+  background-color: var(--blue);
+  text-align: center;
+  color: white;
+ margin-top: 5%;
+  padding: 5px
+}
+
 .intro-text {
   background-color: var(--blue);
-  
+  text-align: center;
 }
 
 .intro-text button {
@@ -160,12 +167,27 @@ h2 {
 
 
 .dåseringsbaggrund {
-  
+  background-image: url(/img/dåseringebaggrund.png);
+  min-height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.shadowbox-forside {
+  justify-content: center;
+  padding-top: 50%;
+}
 
+.texttæller {
+  font-size: 17px;
+  font-weight: 800;
+}
 
-
+.counter {
+  font-size: 40px;
+}
 
 /* ------- History side -------- */
 
