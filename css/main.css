@@ -183,6 +183,7 @@ h4 {
 
 .voreshistorie h3 {
   margin-bottom: 20px;
+  font-size: 1.5em;
 }
 
 .voreshistorie button {
@@ -195,11 +196,12 @@ h4 {
   border-radius: 0.5em;
   font-size: 1.5em;
   color: var(--text-color-light);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .bestyrelse {
   width: 100%;
+  margin-top: 45px;
 }
 
 .intro-historie {
@@ -237,14 +239,41 @@ h4 {
   margin: 35px;
 }
 
+.historie-sektion {
+  margin-top: 50px;
+}
+
+.daaseringe-billede {
+  margin-top: 20px;
+}
+
 .brugafpengene {
   margin: auto;
 }
 
 .citat {
   font-style: italic;
+  font-size: 1.3em;
+  margin-bottom: 1%;
 }
 
 .citat-text {
   color: var(--text-color-dark);
+  margin-bottom: 50px;
+}
+
+
+footer {
+  background-color: var(--light-blue);
+  margin-bottom: 25px;
+  padding-bottom: 50px;
+}
+
+footer p {
+  color: var(--text-color-dark);
+  font-weight: bold;
+}
+
+.some {
+  display: flex;
 }
