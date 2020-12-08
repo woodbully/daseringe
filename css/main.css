@@ -1,9 +1,9 @@
 /* ---------- root variables ---------- */
 :root {
-  --green:#87b748;
+  --green: #87b748;
   --light-blue: #dae2e7;
   --blue: #13323f;
-  --dark-blue:#001d29;
+  --dark-blue: #001d29;
   --text-color-light: #ffffff;
   --text-color-dark: #000000;
 }
@@ -27,6 +27,11 @@ h1 {
   font-weight: 300;
   letter-spacing: 3px;
   font-family: 'Libre Baskerville', serif;
+}
+
+video {
+  max-width: 100%;
+  opacity: 60%;
 }
 
 /* ---------- topbar styling ---------- */
@@ -59,36 +64,37 @@ h1 {
   left: 0;
   right: 0;
   z-index: 9999;
-  
+
 }
 
 /* Style the links inside the navigation bar */
 .tabbar a {
-   display: inline-flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: var(--text-color-dark);
-  width: 32.6%;
-   height: 14%;
-   padding-top: 2.5%;
-   padding-bottom: 5%;
+  width: 32.1%;
+  height: 14%;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
   text-decoration: none;
   font-size: 0.8em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  border: groove 1px black;
 }
 
 /* Add a color to the active/current link */
 .tabbar a.active {
-  background-color: var(--blue);
-  color: var(--text-color-light);
   text-decoration: underline;
 
 }
 
 .menu-icon {
   max-height: 35px;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
 }
 
 /* ---------- page styling ---------- */
@@ -187,22 +193,42 @@ h2 {
 
 .counter {
   font-size: 40px;
+/* ---------- wordpress posts styling ---------- */
+.flex-box {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+}
+
+article p {
+  text-align: left;
+  padding-left: 2%;
+  margin: 0;
 }
 
 /* ------- History side -------- */
 
-.voreshistorie{
+.voreshistorie {
   margin-bottom: 50px;
 }
-.voreshistorie h3, h4{
+
+.voreshistorie h3,
+h4 {
   margin: 40px;
 }
 
-.voreshistorie h3{
+.voreshistorie h3 {
   margin-bottom: 20px;
+  font-size: 1.5em;
 }
 
-.voreshistorie button{
+.voreshistorie button {
   background-color: var(--green);
   border: none;
   padding-right: 35px;
@@ -212,27 +238,30 @@ h2 {
   border-radius: 0.5em;
   font-size: 1.5em;
   color: var(--text-color-light);
-  margin-bottom: 40px;
-}
-.bestyrelse{
-  width: 100%;
+  margin-bottom: 20px;
 }
 
-.intro-historie{
+.bestyrelse {
+  width: 100%;
+  margin-top: 45px;
+}
+
+.intro-historie {
   background-color: var(--blue);
 }
 
-.intro-historie p{
+.intro-historie p {
   color: var(--text-color-light);
   line-height: 25px;
 }
 
-.intro-text{
+.intro-text {
   color: var(--text-color-light);
   text-align: left;
   padding: 20px;
 }
-.intro-historie button{
+
+.intro-historie button {
   background-color: var(--green);
   border: none;
   padding-right: 35px;
@@ -245,29 +274,54 @@ h2 {
   margin-bottom: 40px;
 }
 
-.historie-text{
+.historie-text {
   color: var(--text-color-dark);
   text-align: left;
   margin-bottom: 70px;
-  margin: 35px;
+  margin: 8%;
 }
 
-.brugafpengene{
+.historie-sektion {
+  margin-top: 50px;
+}
+
+.daaseringe-billede {
+  margin-top: 20px;
+}
+
+.brugafpengene {
   margin: auto;
 }
 
-.citat{
+.citat {
   font-style: italic;
+  font-size: 1.3em;
+  margin-bottom: 1%;
 }
 
-.citat-text{
+.citat-text {
   color: var(--text-color-dark);
+  margin-bottom: 50px;
 }
 
 
+footer {
+  background-color: var(--light-blue);
+  padding-bottom: 50px;
+}
 
+footer p{
+  color: var(--text-color-dark);
+  font-weight: bold;
+}
 
+.some {
+  display: flex;
+}
 
+/*---- Støt siden -----*/
 
-
-  
+.stepsene{
+  display: flex;
+  margin: 4%;
+}

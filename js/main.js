@@ -19,10 +19,17 @@ function appendPosts(posts) {
   for (let post of posts) {
     console.log(post);
     htmlTemplate += `
-      <article>
-      <img src="${getFeaturedImageUrl(post)}">
+      <article class="wp-posts">
         <h3>${post.title.rendered}</h3>
-        <p>${post.content.rendered}</p>
+        <div class="flex-box">
+        <img src="${post.acf.image.url}">
+        <div>
+        <p>Alder: ${post.acf.age} år</p>
+        <p>Afstand til nærmeste hospital: ${post.acf.distance} km</p>
+        <p>Type af amputaion: ${post.acf.amputation}</p>
+        </div>
+        </div>
+
       </article>
     `;
   }
