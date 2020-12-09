@@ -184,17 +184,54 @@ h2 {
 
 .shadowbox-forside {
   justify-content: center;
-  padding-top: 50%;
+  padding-top: 35%;
+}
+
+.shadow {
+  background-color: white;
+  opacity: 82%;
+  margin: 7%;
+
 }
 
 .texttæller {
   font-size: 17px;
   font-weight: 800;
+  text-shadow: 3px 3px 3px #A9A9A9; 
+  margin-top: 5%;
+}
+
+.donationtext {
+  font-size: 14px;
+  text-shadow: 3px 3px 3px #A9A9A9;
+  padding-bottom: 3%;
 }
 
 .counter {
   font-size: 40px;
+  text-shadow: 3px 3px 3px #A9A9A9;
+  margin-top: 3%;
+
 }
+
+.casestories {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 10%;
+  
+}
+
+.casetext {
+  color: black;
+}
+
+
+.bars {
+		height: 4px;
+    margin: 4%;
+    background-color: black;
+    width: 100%;
+	}
 
 
 /* ---------- wordpress posts styling ---------- */
