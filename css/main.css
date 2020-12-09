@@ -95,6 +95,7 @@ h3 {
   font-size: 0.8em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  border-top: groove 1px black;
 }
 
 .tabbar #stot {
