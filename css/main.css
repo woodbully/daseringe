@@ -223,15 +223,35 @@ h2 {
 
 }
 
-.casestories {
-  display: flex;
-  flex-wrap: nowrap;
-}
 
 .casetext {
-  color: black; 
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  padding-top: 15%;
 }
 
+.casetext:before,
+.casetext:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  
+}
+
+.casetext:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.casetext:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
 
 
 /* ---------- wordpress posts styling ---------- */
@@ -400,21 +420,35 @@ margin-bottom: 10%;
   margin-bottom: 40px;
 }
 
-.bidrag{
-  background-image: url(../img/protese.jpeg);
-}
+
 
 /*---- slide container ---*/
-.slidecontainer {
+
+.bidrag {
+  background-image: url(/img/protese.jpeg);
+  min-height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadow-background{
+  justify-content: center;
+  background-color: white;
+  opacity: 90%;
+}
+
+.slidecontainer{
   width: 100%;
 }
 
 .slider {
   -webkit-appearance: none;
-  width: 100%;
+  width: 80%;
   height: 15px;
   border-radius: 5px;
-  background: #d3d3d3;
+  background: #ffffff;
   outline: none;
   opacity: 0.7;
   -webkit-transition: .2s;
@@ -431,7 +465,7 @@ margin-bottom: 10%;
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #4CAF50;
+  background: var(--green);
   cursor: pointer;
 }
 
