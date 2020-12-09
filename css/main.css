@@ -298,17 +298,68 @@ h2 {
   margin-right: -50%;
 }
 
+/*------statistik side på forside ----*/
+
+.statistik{
+  background-color: var(--blue);
+  padding: 10%;
+}
+
+.statistik h3, h4,p{
+  color: var(--text-color-light);
+  margin: 1%;
+}
+
+.statistik h3{
+  margin-top: 5%;
+  margin-bottom: 20%;
+  
+}
+
+.line{
+  background-color: var(--light-blue);
+  width: 50px;
+  height: 20px;
+  justify-content: center;
+}
+
+.statistik-indhold{
+  margin: 5%;
+}
+.raekke{
+  display: flex;
+  margin-bottom: 5%;
+}
+
 
 .nyheder-box {
   background-color: var(--light-blue);
-  padding: 20px;
+  padding: 30px;
 }
 
 .nyhedstekst {
   font-size: 30px;
+  padding-bottom: 20px;
   border-bottom: solid 2px black;
   padding-bottom: 5%;
 }
+
+.nyheds-box {
+  display: flex;
+}
+
+.nyhedsp {
+  color: #000;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.nyhedsbillede {
+  width: 50%;
+}
+
+
 
 
 /* ---------- wordpress posts styling ---------- */
@@ -340,8 +391,7 @@ article p {
   text-align: left;
   padding-left: 8%;
   margin: 0;
-  font-size: 17px;
-
+  font-size: 15px;
 }
 
 article {
@@ -448,6 +498,7 @@ h4 {
   margin-bottom: 50px;
 }
 
+/*------- footer ----*/
 
 footer {
   background-color: var(--light-blue);
