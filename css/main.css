@@ -285,12 +285,30 @@ h2 {
 
 .nyheder-box {
   background-color: var(--light-blue);
-  padding: 20px;
+  padding: 30px;
 }
 
 .nyhedstekst {
   font-size: 30px;
+  padding-bottom: 20px;
 }
+
+.nyheds-box {
+  display: flex;
+}
+
+.nyhedsp {
+  color: #000;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.nyhedsbillede {
+  width: 50%;
+}
+
+
 
 
 /* ---------- wordpress posts styling ---------- */
@@ -322,7 +340,7 @@ article p {
   text-align: left;
   padding-left: 8%;
   margin: 0;
-  font-size: 17px;
+  font-size: 15px;
   
 }
 
