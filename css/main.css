@@ -145,6 +145,19 @@ h3 {
   }
 }
 
+/* ---------- menu styling ---------- */
+
+body #menu {
+  background-color: var(--blue);
+  color: var(--text-color-light);
+
+}
+
+.menu-heading {
+  padding-top: 15px;
+  font-size: 2em;
+}
+
 /* ---------- front page styling ---------- */
 
 .forsidebillede {
