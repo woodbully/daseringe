@@ -214,15 +214,35 @@ h2 {
 
 }
 
-.casestories {
-  display: flex;
-  flex-wrap: nowrap;
-}
 
 .casetext {
-  color: black; 
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  padding-top: 15%;
 }
 
+.casetext:before,
+.casetext:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+  
+}
+
+.casetext:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.casetext:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
 
 
 /* ---------- wordpress posts styling ---------- */
