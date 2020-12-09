@@ -179,8 +179,9 @@ h2 {
 .intro-case {
   background-color: var(--blue);
   text-align: center;
-  padding: 65px;
- 
+  padding-top: 20px;
+  padding-bottom: 80px;
+
 }
 
 .intro-case button {
@@ -196,8 +197,8 @@ h2 {
   position: absolute;
   left: 30%;
   margin: 0;
-  
-  
+
+
 }
 
 .intro-text button {
@@ -292,6 +293,8 @@ h2 {
 
 .nyhedstekst {
   font-size: 30px;
+  border-bottom: solid 2px black;
+  padding-bottom: 5%;
 }
 
 
@@ -306,7 +309,7 @@ h2 {
 
 .divider {
   padding-bottom: 6%;
-  border-bottom: groove 3px var(--text-color-light);
+  border-top: groove 3px var(--text-color-light);
 }
 
 .divider h3 {
@@ -325,7 +328,7 @@ article p {
   padding-left: 8%;
   margin: 0;
   font-size: 17px;
-  
+
 }
 
 article {
