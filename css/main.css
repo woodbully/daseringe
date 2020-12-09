@@ -34,10 +34,21 @@ h3 {
   font-family: 'Libre Baskerville',serif;
 }
 
-video {
+.dasering {
   max-width: 100%;
   opacity: 60%;
 }
+
+.thailand {
+  max-width: 100%;
+}
+
+.grid-container {
+  background-color: var(--blue);
+
+}
+
+
 
 /* ---------- topbar styling ---------- */
 .topbar {
@@ -229,6 +240,8 @@ h2 {
   text-align: center;
   color: black;
   padding-top: 15%;
+  font-size: 31px;
+  font-weight: 500;
 }
 
 .casetext:before,
@@ -272,6 +285,11 @@ article p {
   padding-left: 8%;
   margin: 0;
   font-size: 17px;
+}
+
+article {
+  color: var(--text-color-light);
+  padding-top: 2%;
 }
 
 /* ------- History side -------- */
