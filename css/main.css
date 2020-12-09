@@ -178,8 +178,8 @@ h2 {
 .intro-case {
   background-color: var(--blue);
   text-align: center;
-  padding: 65px;
- 
+  padding-bottom: 65px;
+  
 }
 
 .intro-case button {
@@ -195,8 +195,6 @@ h2 {
   position: absolute;
   left: 30%;
   margin: 0;
-  
-  
 }
 
 .intro-text button {
@@ -310,8 +308,8 @@ h2 {
 
 .divider h3 {
   margin: 0;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 article img {
