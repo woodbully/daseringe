@@ -24,9 +24,9 @@ function appendPosts(posts) {
         <div class="flex-box">
         <img src="${post.acf.image.url}">
         <div>
-        <p>Alder: ${post.acf.age} år</p>
-        <p>Afstand til nærmeste hospital: ${post.acf.distance} km</p>
-        <p>Type af amputaion: ${post.acf.amputation}</p>
+        <p><b>Alder:</b> ${post.acf.age} år</p>
+        <p><b>Afstand til nærmeste hospital:</b> ${post.acf.distance} km</p>
+        <p><b>Type af amputaion:</b> ${post.acf.amputation}</p>
         </div>
         </div>
 
