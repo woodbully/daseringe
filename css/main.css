@@ -87,7 +87,11 @@ video {
   font-size: 0.8em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  border: groove 1px black;
+}
+
+.tabbar #stot {
+  border-left: groove 1px black;
+  border-right: groove 1px black;
 }
 
 /* Add a color to the active/current link */
