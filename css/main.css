@@ -178,6 +178,30 @@ h2 {
   padding: 15px;
 }
 
+.intro-case {
+  background-color: var(--blue);
+  text-align: center;
+  padding: 65px;
+ 
+}
+
+.intro-case button {
+  background-color: var(--green);
+  border: none;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  color: var(--text-color-light);
+  position: absolute;
+  left: 30%;
+  margin: 0;
+  
+  
+}
+
 .intro-text button {
   background-color: var(--green);
   border: none;
@@ -267,6 +291,16 @@ h2 {
 }
 
 
+.nyheder-box {
+  background-color: var(--light-blue);
+  padding: 20px;
+}
+
+.nyhedstekst {
+  font-size: 30px;
+}
+
+
 /* ---------- wordpress posts styling ---------- */
 .flex-box {
   display: grid;
@@ -285,11 +319,13 @@ article p {
   padding-left: 8%;
   margin: 0;
   font-size: 17px;
+  
 }
 
 article {
   color: var(--text-color-light);
   padding-top: 2%;
+  line-height: 25px;
 }
 
 /* ------- History side -------- */
