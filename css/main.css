@@ -233,7 +233,7 @@ h2 {
 /* ---------- wordpress posts styling ---------- */
 .flex-box {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 45% 55%;
   margin-left: 4%;
   margin-right: 4%;
 }
