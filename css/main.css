@@ -401,22 +401,18 @@ margin-bottom: 10%;
 /*---- slide container ---*/
 
 .bidrag {
-  background-image: url(/img/protese.jpeg);
-  min-height: 450px;
+  background-image: url(/img/protese3.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.shadow-background{
-  justify-content: center;
-  background-color: white;
-  opacity: 90%;
+  width: 100%;
 }
 
 .slidecontainer{
   width: 100%;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 .slider {
@@ -426,9 +422,21 @@ margin-bottom: 10%;
   border-radius: 5px;
   background: #ffffff;
   outline: none;
-  opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
+}
+
+.slidecontainer button{
+  background-color: var(--green);
+  border: none;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0.5em;
+  margin-top: 5%;
+  font-size: 1.5em;
+  color: var(--text-color-light);
 }
 
 .slider:hover {
@@ -451,4 +459,16 @@ margin-bottom: 10%;
   border-radius: 50%;
   background: #4CAF50;
   cursor: pointer;
+}
+
+.bidrag p{
+  color: var(--text-color-dark);
+  background-color: #ffffff;
+  border-radius: 1em;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+  padding: 3%;
+  font-style: bold;
+  font-weight: 500;
 }
