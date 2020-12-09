@@ -29,6 +29,11 @@ h1 {
   font-family: 'Libre Baskerville', serif;
 }
 
+h3 {
+  font-size: 1.5em;
+  font-family: 'Libre Baskerville',serif;
+}
+
 video {
   max-width: 100%;
   opacity: 60%;
@@ -212,8 +217,9 @@ article img {
 
 article p {
   text-align: left;
-  padding-left: 2%;
+  padding-left: 8%;
   margin: 0;
+  font-size: 17px;
 }
 
 /* ------- History side -------- */
