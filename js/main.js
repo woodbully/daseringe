@@ -45,12 +45,12 @@ function getFeaturedImageUrl(post) {
   return imageUrl;
 }
 
+// slide-container på støtte siden
 
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
 
-// donation tæller
-$('.counter').counterUp({
-  delay: 10,
-  time: 2000
-});
-$('.counter').addClass('animated fadeInDownBig');
-$('h3').addClass('animated fadeIn');
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
