@@ -31,9 +31,13 @@ h1 {
 
 h3 {
   font-size: 1.5em;
-  font-family: 'Libre Baskerville',serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
+
+
+
+/* ---------- video styling ---------- */
 .dasering {
   max-width: 100%;
   opacity: 60%;
@@ -42,13 +46,6 @@ h3 {
 .thailand {
   max-width: 100%;
 }
-
-.grid-container {
-  background-color: var(--blue);
-
-}
-
-
 
 /* ---------- topbar styling ---------- */
 .topbar {
@@ -168,7 +165,7 @@ h2 {
   background-color: var(--blue);
   text-align: center;
   color: white;
- margin-top: 5%;
+  margin-top: 5%;
   padding: 5px;
 }
 
@@ -238,17 +235,13 @@ h2 {
 
 }
 
-.texttæller {
-  font-size: 17px;
-  font-weight: 800;
-  text-shadow: 3px 3px 3px #A9A9A9; 
-  margin-top: 5%;
-}
 
 .donationtext {
-  font-size: 14px;
+  font-size: 17px;
   text-shadow: 3px 3px 3px #A9A9A9;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin: 0;
 }
 
 .counter {
@@ -277,7 +270,7 @@ h2 {
   position: relative;
   vertical-align: middle;
   width: 50%;
-  
+
 }
 
 .casetext:before {
@@ -307,6 +300,18 @@ h2 {
   grid-template-columns: 45% 55%;
   margin-left: 4%;
   margin-right: 4%;
+
+}
+
+.divider {
+  padding-bottom: 6%;
+  border-bottom: groove 3px var(--text-color-light);
+}
+
+.divider h3 {
+  margin: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 article img {
@@ -326,6 +331,12 @@ article {
   color: var(--text-color-light);
   padding-top: 2%;
   line-height: 25px;
+}
+
+.grid-container {
+  background-color: var(--blue);
+
+
 }
 
 /* ------- History side -------- */
@@ -426,7 +437,7 @@ footer {
   padding-bottom: 15%;
 }
 
-footer p{
+footer p {
   color: var(--text-color-dark);
   font-weight: bold;
 }
@@ -439,29 +450,30 @@ footer p{
 
 
 
-.indsamling{
+.indsamling {
   margin: 10%;
 }
 
-.indsamling img{
-margin: 10%;
+.indsamling img {
+  margin: 10%;
 }
 
-.steps{
-background-color: var(--green);
-margin-right: 65%;
-margin-left: 5%;
-font-size: 1.5em;
-border-radius: 0.5em;
-padding: 2%;
-margin-bottom: 10%;
+.steps {
+  background-color: var(--green);
+  margin-right: 65%;
+  margin-left: 5%;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+  padding: 2%;
+  margin-bottom: 10%;
+  color: var(--text-color-light);
 }
 
-.stepsene{
+.stepsene {
   margin-top: 30%;
 }
 
-.indsamling button{
+.indsamling button {
   background-color: var(--green);
   border: none;
   padding-right: 35px;
@@ -471,7 +483,8 @@ margin-bottom: 10%;
   border-radius: 0.5em;
   font-size: 1.5em;
   color: var(--text-color-light);
-  margin-bottom: 40px;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
 
@@ -479,22 +492,24 @@ margin-bottom: 10%;
 /*---- slide container ---*/
 
 .bidrag {
-  background-image: url(/img/protese.jpeg);
-  min-height: 450px;
+  background-image: url(/img/protese3.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.shadow-background{
+.shadow-background {
   justify-content: center;
   background-color: white;
   opacity: 90%;
+  width: 100%;
 }
 
-.slidecontainer{
+.slidecontainer {
   width: 100%;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 .slider {
@@ -504,9 +519,21 @@ margin-bottom: 10%;
   border-radius: 5px;
   background: #ffffff;
   outline: none;
-  opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
+}
+
+.slidecontainer button {
+  background-color: var(--green);
+  border: none;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0.5em;
+  margin-top: 5%;
+  font-size: 1.5em;
+  color: var(--text-color-light);
 }
 
 .slider:hover {
@@ -529,4 +556,35 @@ margin-bottom: 10%;
   border-radius: 50%;
   background: #4CAF50;
   cursor: pointer;
+}
+
+.bidrag p {
+  color: var(--text-color-dark);
+  background-color: #ffffff;
+  border-radius: 1em;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+  padding: 3%;
+  font-style: bold;
+  font-weight: 500;
+}
+
+/*-----samkørselsordning-----*/
+
+.samkørselsordning {
+  margin: 10%;
+}
+
+.samkørselsordning button {
+  background-color: var(--green);
+  border: none;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0.5em;
+  margin-top: 5%;
+  font-size: 1.5em;
+  color: var(--text-color-light);
 }
