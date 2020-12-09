@@ -419,6 +419,7 @@ font-size: 1.5em;
 border-radius: 0.5em;
 padding: 2%;
 margin-bottom: 10%;
+color: var(--text-color-light);
 }
 
 .stepsene{
@@ -435,7 +436,8 @@ margin-bottom: 10%;
   border-radius: 0.5em;
   font-size: 1.5em;
   color: var(--text-color-light);
-  margin-bottom: 40px;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 
 
@@ -513,4 +515,22 @@ margin-bottom: 10%;
   padding: 3%;
   font-style: bold;
   font-weight: 500;
+}
+
+/*-----samkørselsordning-----*/
+
+.samkørselsordning{
+  margin: 10%;
+}
+.samkørselsordning button{
+  background-color: var(--green);
+  border: none;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0.5em;
+  margin-top: 5%;
+  font-size: 1.5em;
+  color: var(--text-color-light);
 }
