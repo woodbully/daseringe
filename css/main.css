@@ -247,7 +247,6 @@ h2 {
   background-color: white;
   opacity: 82%;
   margin: 7%;
-
 }
 
 
@@ -257,13 +256,13 @@ h2 {
   padding-bottom: 5%;
   padding-top: 5%;
   margin: 0;
+  color: black;
 }
 
 .counter {
   font-size: 40px;
   text-shadow: 3px 3px 3px #A9A9A9;
   margin-top: 3%;
-
 }
 
 
@@ -340,9 +339,10 @@ h2 {
 .nyhedstekst {
   font-size: 30px;
   padding-bottom: 20px;
-  border-bottom: solid 2px black;
   padding-bottom: 5%;
 }
+
+
 
 .nyheds-box {
   display: flex;
