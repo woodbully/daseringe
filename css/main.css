@@ -175,6 +175,7 @@ h2 {
   color: white;
   line-height: 25px;
   padding-top: 45px;
+  margin-top: 20%;
 }
 
 .intro-text1 {
@@ -227,6 +228,7 @@ h2 {
   color: var(--text-color-light);
   position: absolute;
   left: 30%;
+  margin-top: 8%;
 }
 
 

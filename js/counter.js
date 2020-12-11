@@ -1,4 +1,3 @@
-
 // donation tæller
 const counters = document.querySelectorAll('.counter');
 
