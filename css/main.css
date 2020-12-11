@@ -123,16 +123,32 @@ p {
 
 /* ---------- menu styling ---------- */
 .menu-nav{
-  margin-top:200px;
-  display: block;
+ 
+  display: flex;
+  flex-direction: column;
+  text-align: left;
   color: var(--text-color-light);
-  text-decoration: none;
+    width: 50%;
+ margin: auto;
+  margin-top:110px;
+
+}
+
+.menu-nav a{
+  width: 100%;
+  padding-top: 12%;
+  padding-bottom: 2%;
+  font-size: 1.2em;
+   text-decoration-line: none;
+   border-bottom: solid 2px var(--text-color-light);
 }
 
 .menu-nav a:visited{
    color: var(--text-color-light);
    text-decoration: none;
 }
+
+
 
 /* ---------- page styling ---------- */
 .page {
