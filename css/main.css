@@ -676,7 +676,6 @@ color: var(--text-color-dark);
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: var(--dark-blue);
   cursor: pointer;
 }
 
