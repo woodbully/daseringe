@@ -108,14 +108,17 @@ p {
 /* Add a color to the active/current link */
 .tabbar a.active {
   text-decoration: underline;
-
 }
+
 
 .menu-icon {
   max-height: 35px;
   padding-top: 2.5%;
   padding-bottom: 5%;
 }
+
+
+
 
 /* ---------- page styling ---------- */
 .page {
@@ -159,6 +162,8 @@ body #menu {
   padding-top: 15px;
   font-size: 2em;
 }
+
+
 
 /* ---------- front page styling ---------- */
 
@@ -480,6 +485,7 @@ h4 {
   text-align: left;
   padding: 20px;
 }
+
 
 .intro-historie button {
   background-color: var(--green);
