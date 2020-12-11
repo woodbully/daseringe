@@ -49,6 +49,10 @@ p {
   max-width: 100%;
 }
 
+.historie-video{
+  max-width:100%;
+}
+
 /* ---------- topbar styling ---------- */
 .topbar {
   background-color: var(--blue);
@@ -108,13 +112,26 @@ p {
 /* Add a color to the active/current link */
 .tabbar a.active {
   text-decoration: underline;
-
 }
+
 
 .menu-icon {
   max-height: 35px;
   padding-top: 2.5%;
   padding-bottom: 5%;
+}
+
+/* ---------- menu styling ---------- */
+.menu-nav{
+  margin-top:200px;
+  display: block;
+  color: var(--text-color-light);
+  text-decoration: none;
+}
+
+.menu-nav a:visited{
+   color: var(--text-color-light);
+   text-decoration: none;
 }
 
 /* ---------- page styling ---------- */
@@ -159,6 +176,8 @@ body #menu {
   padding-top: 15px;
   font-size: 2em;
 }
+
+
 
 /* ---------- front page styling ---------- */
 
@@ -482,6 +501,7 @@ h4 {
   text-align: left;
   padding: 20px;
 }
+
 
 .intro-historie button {
   background-color: var(--green);
